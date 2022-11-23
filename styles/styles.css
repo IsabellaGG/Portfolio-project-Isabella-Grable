@@ -199,7 +199,6 @@ body {
 .cv-content:hover {
   background-color: var(--background-color-1);
   border-radius: 6px;
-  padding-top: 15px;
 }
 
 .cv-content-earlier-career {
