@@ -177,7 +177,7 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   font-weight: lighter;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .cv-content h3 {
@@ -196,6 +196,10 @@ body {
   list-style: circle;
 }
 
+.cv-skills {
+  list-style: none !important;
+}
+
 .cv-content:hover {
   background-color: var(--background-color-1);
   border-radius: 6px;
@@ -209,11 +213,29 @@ body {
   font-size: 18px;
 }
 
-.skills {
-  list-style: none;
-  padding: 0;
-  margin-left: 20px;
-  font-size: 14px;
+.contact {
+  background-color: var(--background-color-1);
+  font-family: var(--default-font-family);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.contact h1 {
+  font-size: 60px;
+  line-height: 2;
+}
+
+.contact h3 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 1197px) {
