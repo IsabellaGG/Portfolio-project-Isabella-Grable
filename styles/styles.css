@@ -39,12 +39,12 @@ nav li {
 nav a {
   text-decoration: none;
   color: black;
+  transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
   color: var(--primary-color);
-  transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -89,13 +89,13 @@ nav li.active a {
   background-color: var(--primary-color);
   padding: 18px 48px;
   border-radius: 4px;
+  transition: all 100ms ease-in-out;
 }
 
 .contact-button a:hover {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   background-color: var(--background-color-1);
-  transition: all 100ms ease-in-out;
 }
 
 .project-description {
@@ -124,13 +124,13 @@ nav li.active a {
   background-color: var(--background-color-1);
   padding: 15px 30px;
   border-radius: 4px;
+  transition: all 100ms ease-in-out;
 }
 
 .project-button:hover {
   color: var(--background-color-1);
   border: 1px solid var(--background-color-1);
   background-color: var(--primary-color);
-  transition: all 100ms ease-in-out;
 }
 
 .content-container {
@@ -169,13 +169,13 @@ nav li.active a {
   background-color: var(--background-color-2);
   padding: 15px 30px;
   border-radius: 4px;
+  transition: all 100ms ease-in-out;
 }
 
 .about-project-button:hover {
   color: var(--background-color-2);
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
 }
 
 .cv {
@@ -236,10 +236,13 @@ nav li.active a {
   list-style: none !important;
 }
 
+.cv-content {
+  transition: all 100ms ease-in-out;
+}
+
 .cv-content:hover {
   background-color: var(--background-color-1);
   border-radius: 6px;
-  transition: all 100ms ease-in-out;
 }
 
 .cv-content-earlier-career {
@@ -269,11 +272,56 @@ nav li.active a {
 .contact a {
   text-decoration: none;
   color: black;
+  transition: all 100ms ease-in-out;
 }
 
 .contact a:hover {
   color: var(--primary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer h4 {
+  font-size: 48px;
+}
+
+footer .contact-box {
+  background-color: var(--background-color-1);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
   transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--background-color-1);
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--background-color-2);
 }
 
 @media (max-width: 1197px) {
@@ -283,6 +331,20 @@ nav li.active a {
   .content-container h1 {
     font-size: 40px;
     line-height: 1.5;
+  }
+
+  footer h4 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 991px) {
+  footer h4 {
+    font-size: 30px;
+  }
+
+  footer .contact-box {
+    padding: 30px 90px;
   }
 }
 
