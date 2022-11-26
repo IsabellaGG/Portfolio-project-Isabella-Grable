@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Isabella is a front-end enginner with people skills, based in the UK. Here you can find her contact details."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,27 +33,71 @@
     <title>Isabella Grable | Front-end developer | Contact</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <p class="logo">IG</p>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home </a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Isabella">About </a>
+          </li>
+          <li>
+            <a href="/cv.html" title="Isabella's Curriculum Vitae">CV </a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Isabella's contact details"
+              >Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="contact">
       <h1>Let's get in touch!</h1>
-      <h3>
-        <i class="fa-regular fa-envelope"></i>
-        <a href="mailto:isabella.grable@gmail.com">
+      <div>
+        <a
+          href="mailto:isabella.grable@gmail.com"
+          class="email-link"
+          title="Email Isabella"
+        >
           isabella.grable@gmail.com</a
         >
-      </h3>
-      <h3>
-        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links d-flex justify-content-center">
         <a
           href="https://www.linkedin.com/in/isabella-grable-govender-a4316a126/"
           target="_blank"
-        >
-          LinkedIn</a
-        >
-      </h3>
-      <h3>
-        <i class="fa-brands fa-github"></i
-        ><a href="https://github.com/IsabellaGG" target="_blank"> GitHub</a>
-      </h3>
-    </div>
+          title="Isabella's LinkedIn profile"
+          ><i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/IsabellaGG"
+          target="_blank"
+          title="Isabella's GitHub profile"
+          ><i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/isabella_bellaisa/"
+          target="_blank"
+          title="Isabella's Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <p class="text-center text-muted mt-5">
+        This project was coded by Isabella Grable, and it is
+        <a
+          href="https://github.com/IsabellaGG/Portfolio-project-Isabella-Grable"
+          target="_blank"
+          title="GitHub | Portfolio - Isabella Grable"
+          >open-sourced
+        </a>
+        <br />
+        💚
+      </p>
+    </footer>
   </body>
 </html>

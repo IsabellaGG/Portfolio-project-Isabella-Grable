@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Isabella is a front-end enginner with people skills, based in the UK. Find out more about her!"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,25 +33,46 @@
     <title>Isabella Grable | Front-end developer | About me</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <p class="logo">IG</p>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Isabella">About </a>
+          </li>
+          <li>
+            <a href="/cv.html" title="Isabella's Curriculum Vitae">CV </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Isabella's contact details"
+              >Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">👋 Hi, I am Isabella Grable</h1>
+            <h1 class="mb-4">👋 Hi, it's Isabella</h1>
             <h2 class="mb-4">
-              Front-end developer with People skills, based in London
+              Front-end developer with People skills, and based in London
             </h2>
             <p class="mb-5">
-              A highly motivated and creative People/HR professional with a
-              passion for getting the best out of teams. Currently exploring
-              Javascript, learn how to debug code and how to build something
-              from scratch! Feel free to reach out if you'd like to have a chat.
-              💙
+              A highly motivated and creative Front-end developer with years of
+              professional background in People/HR. In any of my jobs, I have a
+              passion for getting the best out of teams. Due a career break in
+              2022, I've started exploring HTML, CSS and Javascript, learned how
+              to debug code and how to build something from scratch! Feel free
+              to reach out if you'd like to have a chat. 💙
             </p>
             <a
-              href=""
+              href="../index.html#projects"
               class="btn about-project-button"
-              target="_blank"
               title="Project page"
               >View my work</a
             >
@@ -61,6 +86,59 @@
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div class="contact-button mt-4">
+            <a href="/contact.html" title="Isabella's contact details"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:isabella.grable@gmail.com"
+            class="email-link"
+            title="Email Isabella"
+          >
+            isabella.grable@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/isabella-grable-govender-a4316a126/"
+            target="_blank"
+            title="Isabella's LinkedIn profile"
+            ><i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/IsabellaGG"
+            target="_blank"
+            title="Isabella's GitHub profile"
+            ><i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/isabella_bellaisa/"
+            target="_blank"
+            title="Isabella's Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <p class="text-center text-muted mt-5">
+          This project was coded by Isabella Grable, and it is
+          <a
+            href="https://github.com/IsabellaGG/Portfolio-project-Isabella-Grable"
+            target="_blank"
+            title="GitHub | Portfolio - Isabella Grable"
+            >open-sourced
+          </a>
+          <br />
+          💚
+        </p>
+      </footer>
     </div>
   </body>
 </html>
