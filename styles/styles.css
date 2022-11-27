@@ -158,28 +158,8 @@ nav li.active a {
   margin: 30px;
 }
 
-.about-project-button {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  text-decoration: none;
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  background-color: var(--background-color-2);
-  padding: 15px 30px;
-  border-radius: 4px;
-  transition: all 100ms ease-in-out;
-}
-
-.about-project-button:hover {
-  color: var(--background-color-2);
-  border: 1px solid var(--secondary-color);
-  background-color: var(--secondary-color);
-}
-
 .cv {
-  background-color: var(--background-color-2);
+  background-color: var(--background-color-1);
   font-family: var(--default-font-family);
   text-align: center;
   padding: 60px 20px;
@@ -213,7 +193,7 @@ nav li.active a {
   font-size: 40px;
   text-transform: uppercase;
   font-weight: lighter;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .cv-content h3 {
@@ -234,15 +214,6 @@ nav li.active a {
 
 .cv-skills {
   list-style: none !important;
-}
-
-.cv-content {
-  transition: all 100ms ease-in-out;
-}
-
-.cv-content:hover {
-  background-color: var(--background-color-1);
-  border-radius: 6px;
 }
 
 .cv-content-earlier-career {
@@ -336,6 +307,10 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 991px) {
+  .project-description {
+    padding: 30px 60px;
+  }
+
   footer h4 {
     font-size: 30px;
   }
