@@ -198,7 +198,7 @@ nav li.active a {
   line-height: 1.4;
 }
 
-.cv-content {
+.cv-content p {
   a[href^="x-apple-data-detectors"] {
     color: inherit !important;
     text-decoration: inherit !important;
